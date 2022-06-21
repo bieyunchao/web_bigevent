@@ -57,7 +57,7 @@ function renderAvatar(user) {
   if (user.user_pic !== null) {
     // 3.1 渲染图片头像
     $('.layui-nav-img')
-      .attr('src', user.user.pic)
+      .attr('src', user.user_pic)
       .fadeIn()
     $('.text-avatar').hide()
   } else {
