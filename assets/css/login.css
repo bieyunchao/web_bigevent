@@ -9,16 +9,16 @@ body {
 }
 
 .loginAndRegBox {
-  width: 400px;
-  height: 310px;
-  background-color: #fff;
   position: absolute;
   left: 50%;
   top: 50%;
+  width: 400px;
+  height: 310px;
+  background-color: #fff;
   transform: translate(-50%, -50%);
 }
 
-.title-box {
+.titlebox {
   height: 60px;
   background: url('/assets/images/login_title.png') no-repeat center;
 }
@@ -46,8 +46,8 @@ body {
 
 .layui-icon {
   position: absolute;
-  left: 10px;
   top: 10px;
+  left: 10px;
 }
 
 .layui-input {
